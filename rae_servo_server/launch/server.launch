@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="rae_servo_server" name="rae_servo_server" type="rae_servo_server.py" output="screen" respawn="false"/>
+</launch>
