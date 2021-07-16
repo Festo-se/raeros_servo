@@ -53,6 +53,7 @@ servo.zero()
 ```python
 servo.moveAbsolute(position=2000, current=900)
 ```
+
 ## Reset
 Resets the motor. This is necessary to recover the motor when it is in error state.
 ```python
@@ -63,7 +64,7 @@ Change the color of the servo LED to your preffered color.
 ```python
 servo.led_to(color)
 ```
-avaliable colors : [black, red, green, blue, yellow, cyan, magenta, white]
+avaliable-colors : [black, red, green, blue, yellow, cyan, magenta, white]
 
 ## Motormode
 Returns the motor mode as string.
